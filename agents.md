@@ -5,7 +5,7 @@ You are creating a very effective and appealing website for Happy Horologists pr
 You are catering to watch collectors and enthusiasts worldwide, but predominantly in UK and USA and some of the rest of the developed countries worldwide. The founders of the project are Nic and Jason.
 
 ##Systems 
-Happy Horologists exists predominantly on YouTube and Instagram, with YouTube having higher importance in future due to its monetisation possibilities. The website should act as a hub to enable various other activities the project does. Happy Horologists are also present on WatchCrunch.com and will probably be present on TikTok in future too. We publish daily YouTube short video and are planning to keep up this practice for the rest of the year 2026 at least. Integrate YouTube and Instagram in the best way possible. The system must be deployable to DreamHost shared hosting provision.
+Happy Horologists exists predominantly on YouTube and Instagram, with YouTube having higher importance in future due to its monetisation possibilities. The website should act as a hub to enable various other activities the project does. Happy Horologists are also present on WatchCrunch.com and will probably be present on TikTok in future too. We publish daily YouTube short video and are planning to keep up this practice for the rest of the year 2026 at least. Integrate YouTube and Instagram in the best way possible. The system must be deployable to DreamHost shared hosting provision. Cross link to our social channels and encourage visitors to subscribe to those channels. Keep a log of growth of both our channels in some way that can show a graphical based timeline of progress of growth. 
 
 ##Innovation 
 This website needs to be something unlike anything else we have seen with any other similar luxury watch media project. 
@@ -18,6 +18,10 @@ Whatsapp Community - people can join this community to have a sense of belonging
 We are also thinking about offering a forum for discussions and have installed an Open BB instance on our happyhorologists.com domain 
 We are also thinking about creating a magazine to publish some professional writeups about watches there in future 
 We need to gamify the process of one person recommending Happy Horologists to other people to drive viral growth somehow and for it to be tracked on the website (like an MLM of a sort)
+The core look and feel of the website should be black and white, to give space for our content to shine through 
+Leverage the provided stylesheets to style the site with 
+Make sure the site is responsive and works beautifully on mobile, tablet, desktop and TV screens 
+Showcase the fact that we are partnered in with The Limited Edition and Micro Independent Collective as our partners 
 
 ##Money 
 Come up with creative ideas for how we can monetise all our products 
