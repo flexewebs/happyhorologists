@@ -25,6 +25,7 @@ The core look and feel of the website should be black and white, to give space f
 Leverage the provided stylesheets to style the site with provided in the 'css' folder 
 Make sure the site is responsive and works beautifully on mobile, tablet, desktop and TV screens 
 Showcase the fact that we are partnered in with The Limited Edition and Micro Independent Collective as our partners 
+365 shorts per year challenge - we are going to show a calendar with 365 shorts posted throughout the year 2026 and for users to be able to play a game of discovering a watch fact for each day of the year 
 
 ##Money 
 Come up with creative ideas for how we can monetise all our products 
