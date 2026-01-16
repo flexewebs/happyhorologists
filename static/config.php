@@ -2,9 +2,9 @@
 // Happy Horologists - Configuration
 
 // Domain & Root
-define("ROOT", "http://localhost:8080/"); // Change this for production
+define("ROOT", "http://localhost/happyhorologists/"); // Change this for production
 define("SITE_NAME", "Happy Horologists");
-define("SITE_TAGLINE", "The Luxury Watch Media Hub");
+define("SITE_TAGLINE", "Because we are happy and horologists");
 
 // Social Media Handles
 define("YOUTUBE_CHANNEL", "https://youtube.com/@happyhorologists");

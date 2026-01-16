@@ -15,25 +15,6 @@
     <link rel="stylesheet" href="bulma.min.css">
 </head>
 <body class="<?php echo isset($pageclass) ? $pageclass : ''; ?>">
-
-<header class="site-header">
-    <div class="container">
-        <div class="nav-flex">
-            <a href="<?php echo ROOT; ?>" class="brand">
-                HAPPY HOROLOGISTS
-            </a>
-            
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="<?php echo ROOT; ?>photography.php">Photography</a></li>
-                    <li><a href="<?php echo ROOT; ?>videography.php">Videography</a></li>
-                    <li><a href="<?php echo ROOT; ?>community.php">Community</a></li>
-                    <li><a href="<?php echo ROOT; ?>dashboard.php">Growth</a></li>
-                    <li><a href="<?php echo ROOT; ?>support.php">Support</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+<header>
+    <?php include 'static/navigation.php'; ?>
 </header>
-
-<main>
