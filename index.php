@@ -8,10 +8,10 @@ include("static/config.php");
 include("static/open.php");
 ?>
 
-* Slideshow of our best watch photography
-* List of our core services 
-* Jason and Nic mini biographies 
-* Testimonials from happy clients
-* Core stats from our channels 
+* Slideshow of our best watch photography - this will need to be a custom component 
+* List of our core services - box/card component from Bulma
+* Jason and Nic mini biographies - box/card component from Bulma
+* Testimonials from happy clients - box/card component from Bulma
+* Core stats from our channels - box/card component from Bulma
 
 <?php include("static/close.php"); ?>
