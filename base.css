@@ -1,0 +1,225 @@
+/* Variables */ 
+:root {
+  
+    /* Colours */
+    --ice: rgb(241, 247, 254); /* #e5edf9 */
+    --water: rgb(153, 186, 232); /* #99bae8 */
+    --sky: rgb(77, 134, 215); /* #4d86d7 */ 
+    --purpose: rgb(1, 83, 198); /* #0153c6 */ 
+    --possibility: rgb(252, 252, 252); /* #fcfcfc */
+    --cloud: rgb(231, 231, 232); /* #e7e7e8 */ 
+    --dust: rgb(162, 162, 165); /* #E7E7E8 */
+    --silver: rgb(91, 91, 96); /* #5b5b60 */
+    --universe: rgb(22, 22, 29); /* #16161d */
+    --people: rgb(255, 153, 0); /* #ff9900 */ 
+    --systems: rgb(204, 0, 0); /* cc0000 */
+    --innovation: rgb(77, 174, 126); /* #4dae7e */
+    --products: rgb(0, 255, 224); /* #00ffe0 */ 
+    --money: rgb(255, 244, 46); /* #fff42e */
+    --growth: rgb(255, 0, 98); /* #ff0062 */ 
+  
+    /* Shapes */
+    --tear: 0 50% 50% 50%; 
+    --tear2: 50% 0 50% 50%; 
+    --tear3: 50% 50% 0 50%; 
+    --tear4: 50% 50% 50% 0; 
+    --inverseTear: 50% 0 0 0; 
+    --inverseTear2: 0 50% 0 0; 
+    --inverseTear3: 0 0 50% 0; 
+    --inverseTear4: 0 0 0 50%; 
+    --tearCorner: 100px; 
+  
+    /* Font */
+    --mainFontSize: 12px; 
+    --primaryFont: Josefin Sans;
+    --secondaryFont: Pontano Sans; 
+    --tertiaryFont: Istok Web;
+  
+  }
+  
+  * { margin: 0; font-family: var(--secondaryFont); }
+  html { background: var(--possibility); color: var(--universe); }
+  
+  /* Core framework styles */
+  
+  /* --------------- S ------------------- */ 
+  /* Blues */
+  .iceBack { background: var(--ice); }
+  .skyBack { background:var(--sky); }
+  .waterBack { background: var(--water); }
+  .purposeBack { background: var(--purpose); }
+  .iceFront { color: var(--ice); }
+  .skyFront { background: var(--sky); }
+  .waterFront { background: var(--water); }
+  .purposeFront { background: var(--purpose); }
+  
+  /* Greys */
+  /* Light */ 
+  .possibilityBack { background: var(--possibility); }
+  .dustBack { background: var(--dust); } 
+  .possibilityFront { color: var(--possibility); }
+  .dustFront { color: var(--dust); } 
+  
+  /*Dark*/
+  .cloudBack { background: var(--cloud); }
+  .silverBack { background: var(--silver); }
+  .universeBack { background: var(--universe); }
+  .cloudFront { color: var(--cloud); }
+  .silverFront { color: var(--silver); }
+  .universeFront { color: var(--universe); }
+  
+  /* Functional */
+  
+  /* Dark */
+  .peopleBack { background: var(--people); }
+  .systemsBack { background: var(--systems); }
+  .innovationBack { background: var(--innovation); }
+  .peopleFront { color: var(--people); }
+  .systemsFront { color: var(--systems); }
+  .innovationFront { color: var(--innovation); }
+  .growthFront { color: var(--growth); }
+  
+  /* Light */
+  .productsBack { background: var(--products); }
+  .moneyBack { background: var(--money); }
+  .growthBack { background: var(--growth); }
+  
+  /* --------------- HORIZONTAL GRADIENTS ------------------- */ 
+  
+  .possibilityCloudHG { background: linear-gradient(270deg, var(--cloud) 0%, var(--possibility) 100%); }
+  .possibilityDustHG { background: linear-gradient(270deg, var(--dust) 0%, var(--possibility) 100%); }
+  .possibilitySilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--possibility) 100%); }
+  .possibilityUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--possibility) 100%); }
+  .cloudDustHG { background: linear-gradient(270deg, var(--dust) 0%, var(--cloud) 100%); } 
+  .cloudSilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--cloud) 100%); } 
+  .cloudUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--cloud) 100%); } 
+  .dustSilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--dust) 100%); } 
+  .dustUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--dust) 100%); } 
+  .silverUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--silver) 100%); } 
+  
+  .iceSkyHG { background: linear-gradient(270deg, var(--sky) 0%, var(--ice) 100%); }
+  .iceWaterHG { background: linear-gradient(270deg, var(--water) 0%, var(--ice) 100%); }
+  .icePurposeHG { background: linear-gradient(270deg, var(--purpose) 0%, var(--ice) 100%); }
+  .skyWaterHG { background: linear-gradient(270deg, var(--water) 0%, var(--sky) 100%); }
+  .skyPurposeHG { background: linear-gradient(270deg, var(--water) 0%, var(--sky) 100%); }
+  .waterPurposeHG { background: linear-gradient(270deg, var(--purpose) 0%, var(--water) 100%); }
+  
+  .possibilityIceHG { background: linear-gradient(270deg, var(--ice) 0%, var(--possibility) 100%); }
+  .possibilityWaterHG { background: linear-gradient(270deg, var(--water) 0%, var(--possibility) 100%); }
+  .possibilitySkyHG { background: linear-gradient(270deg, var(--sky) 0%, var(--possibility) 100%); }
+  .possibilityPurposeHG { background: linear-gradient(270deg, var(--purpose) 0%, var(--possibility) 100%); }
+  .possibilityProductsHG { background: linear-gradient(270deg, var(--products) 0%, var(--possibility) 100%); }
+  .possibilityMoneyHG { background: linear-gradient(270deg, var(--money) 0%, var(--possibility) 100%); }
+  .possibilityGrowthHG { background: linear-gradient(270deg, var(--growth) 0%, var(--possibility) 100%); }
+  
+  .cloudIceHG { background: linear-gradient(270deg, var(--ice) 0%, var(--cloud) 100%); } 
+  .cloudWaterHG { background: linear-gradient(270deg, var(--water) 0%, var(--cloud) 100%); } 
+  .cloudSkyHG { background: linear-gradient(270deg, var(--sky) 0%, var(--cloud) 100%); } 
+  .cloudPurposeHG { background: linear-gradient(270deg, var(--purpose) 0%, var(--cloud) 100%); } 
+  .cloudProductsHG { background: linear-gradient(270deg, var(--products) 0%, var(--cloud) 100%); }
+  .cloudMoneyHG { background: linear-gradient(270deg, var(--money) 0%, var(--cloud) 100%); }
+  .cloudGrowthHG { background: linear-gradient(270deg, var(--growth) 0%, var(--cloud) 100%); }
+  
+  .dustPurposeHG { background: linear-gradient(270deg, var(--purpose) 0%, var(--dust) 100%); } 
+  .dustPeopleHG { background: linear-gradient(270deg, var(--people) 0%, var(--dust) 100%); } 
+  .dustSystemsHG { background: linear-gradient(270deg, var(--systems) 0%, var(--dust) 100%); } 
+  .dustInnovationHG { background: linear-gradient(270deg, var(--innovation) 0%, var(--dust) 100%); } 
+  .dustProductsHG { background: linear-gradient(270deg, var(--products) 0%, var(--dust) 100%); }
+  .dustMoneyHG { background: linear-gradient(270deg, var(--money) 0%, var(--dust) 100%); }
+  .dustGrowthHG { background: linear-gradient(270deg, var(--growth) 0%, var(--dust) 100%); }
+  
+  .peopleSilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--people) 100%); } 
+  .systemsSilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--systems) 100%); } 
+  .innovationSilverHG { background: linear-gradient(270deg, var(--silver) 0%, var(--innovation) 100%); } 
+  .peopleUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--people) 100%); }
+  .systemsUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--systems) 100%); }
+  .innovationUniverseHG { background: linear-gradient(270deg, var(--universe) 0%, var(--innovation) 100%); }
+  
+  /* --------------- VERTICAL GRADIENTS ------------------- */ 
+  
+  .possibilityCloudVG { background: linear-gradient(0deg, var(--cloud) 0%, var(--possibility) 100%); }
+  .possibilityDustVG { background: linear-gradient(0deg, var(--dust) 0%, var(--possibility) 100%); }
+  .possibilitySilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--possibility) 100%); }
+  .possibilityUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--possibility) 100%); }
+  .cloudDustVG { background: linear-gradient(0deg, var(--dust) 0%, var(--cloud) 100%); } 
+  .cloudSilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--cloud) 100%); } 
+  .cloudUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--cloud) 100%); } 
+  .dustSilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--dust) 100%); } 
+  .dustUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--dust) 100%); } 
+  .silverUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--silver) 100%); } 
+  
+  .iceSkyVG { background: linear-gradient(0deg, var(--sky) 0%, var(--ice) 100%); }
+  .iceWaterVG { background: linear-gradient(0deg, var(--water) 0%, var(--ice) 100%); }
+  .icePurposeVG { background: linear-gradient(0deg, var(--purpose) 0%, var(--ice) 100%); }
+  .skyWaterVG { background: linear-gradient(0deg, var(--water) 0%, var(--sky) 100%); }
+  .skyPurposeVG { background: linear-gradient(0deg, var(--water) 0%, var(--sky) 100%); }
+  .waterPurposeVG { background: linear-gradient(0deg, var(--purpose) 0%, var(--water) 100%); }
+  
+  .possibilityIceVG { background: linear-gradient(0deg, var(--ice) 0%, var(--possibility) 100%); }
+  .possibilityWaterVG { background: linear-gradient(0deg, var(--water) 0%, var(--possibility) 100%); }
+  .possibilitySkyVG { background: linear-gradient(0deg, var(--sky) 0%, var(--possibility) 100%); }
+  .possibilityPurposeVG { background: linear-gradient(0deg, var(--purpose) 0%, var(--possibility) 100%); }
+  .possibilityProductsVG { background: linear-gradient(0deg, var(--products) 0%, var(--possibility) 100%); }
+  .possibilityMoneyVG { background: linear-gradient(0deg, var(--money) 0%, var(--possibility) 100%); }
+  .possibilityGrowthVG { background: linear-gradient(0deg, var(--growth) 0%, var(--possibility) 100%); }
+  
+  .cloudIceVG { background: linear-gradient(0deg, var(--ice) 0%, var(--cloud) 100%); } 
+  .cloudWaterVG { background: linear-gradient(0deg, var(--water) 0%, var(--cloud) 100%); } 
+  .cloudSkyVG { background: linear-gradient(0deg, var(--sky) 0%, var(--cloud) 100%); } 
+  .cloudPurposeVG { background: linear-gradient(0deg, var(--purpose) 0%, var(--cloud) 100%); } 
+  .cloudProductsVG { background: linear-gradient(0deg, var(--products) 0%, var(--cloud) 100%); }
+  .cloudMoneyVG { background: linear-gradient(0deg, var(--money) 0%, var(--cloud) 100%); }
+  .cloudGrowthVG { background: linear-gradient(0deg, var(--growth) 0%, var(--cloud) 100%); }
+  
+  .dustPurposeVG { background: linear-gradient(0deg, var(--purpose) 0%, var(--dust) 100%); } 
+  .dustPeopleVG { background: linear-gradient(0deg, var(--people) 0%, var(--dust) 100%); } 
+  .dustSystemsVG { background: linear-gradient(0deg, var(--systems) 0%, var(--dust) 100%); } 
+  .dustInnovationVG { background: linear-gradient(0deg, var(--innovation) 0%, var(--dust) 100%); } 
+  .dustProductsVG { background: linear-gradient(0deg, var(--products) 0%, var(--dust) 100%); }
+  .dustMoneyVG { background: linear-gradient(0deg, var(--money) 0%, var(--dust) 100%); }
+  .dustGrowthVG { background: linear-gradient(0deg, var(--growth) 0%, var(--dust) 100%); }
+  
+  .peopleSilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--people) 100%); } 
+  .systemsSilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--systems) 100%); } 
+  .innovationSilverVG { background: linear-gradient(0deg, var(--silver) 0%, var(--innovation) 100%); } 
+  .peopleUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--people) 100%); }
+  .systemsUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--systems) 100%); }
+  .innovationUniverseVG { background: linear-gradient(0deg, var(--universe) 0%, var(--innovation) 100%); }
+
+
+ /* Shapes */
+ .inverseTear1 { border-radius: var(--inverseTear); }
+ .inverseTear2 { border-radius: var(--inverseTear2); }
+ .inverseTear3 { border-radius: var(--inverseTear3); }
+ .inverseTear4 { border-radius: var(--inverseTear4); } 
+ .tear1 { border-radius: var(--tear); }
+ .tear2 { border-radius: var(--tear2); }
+ .tear3 { border-radius: var(--tear3); }
+ .tear4 { border-radius: var(--tear4); } 
+ 
+
+  /* GRID */
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; grid-template-rows: 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh; grid-gap: 0; }        
+  .grid1 { grid-column: span 1; } 
+  .grid2 { grid-column: span 2; } 
+  .grid3 { grid-column: span 3; } 
+  .grid4 { grid-column: span 4; } 
+  .grid5 { grid-column: span 5; } 
+  .grid6 { grid-column: span 6; } 
+  .grid7 { grid-column: span 7; } 
+  .grid8 { grid-column: span 8; } 
+  .grid9 { grid-column: span 9; } 
+  .grid10 { grid-column: span 10; } 
+  .grid11 { grid-column: span 11; } 
+  .grid12 { grid-column: span 12; }         
+  .row2 { grid-row: span 2; }         
+  .row3 { grid-row: span 3; }         
+  .row4 { grid-row: span 4; }         
+  .row5 { grid-row: span 5; }         
+  .row6 { grid-row: span 6; }         
+  .row7 { grid-row: span 7; }         
+  .row8 { grid-row: span 8; }         
+  .row9 { grid-row: span 9; }         
+  .row10 { grid-row: span 10; }         
+  .row11 { grid-row: span 11; }         
+  .row12 { grid-row: span 12; }  
