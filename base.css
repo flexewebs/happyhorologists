@@ -223,3 +223,47 @@
   .row10 { grid-row: span 10; }         
   .row11 { grid-row: span 11; }         
   .row12 { grid-row: span 12; }  
+
+    /* Typography */
+  h1, h2, h3, h4, h5, h6 { font-family: var(--primaryFont); }
+  h1 { font-size: calc(var(--mainFontSize) * 4); }
+  h2 { font-size: calc(var(--mainFontSize) * 3); line-height: calc(var(--mainFontSize) * 4.4); }
+  h3 { font-size: calc(var(--mainFontSize) * 2); }
+  h4 { font-size: calc(var(--mainFontSize) * 1.5); }
+  h5 { font-size: calc(var(--mainFontSize) * 1.3); }
+  h6 { font-size: calc(var(--mainFontSize) * 1.1); }
+  p { font-family: var(--secondaryFont);} 
+  a { color: var(--growth); text-decoration: underline; }
+  .textGradient { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  
+  /* Forms */
+  
+  /* Style Placeholders */
+  ::-webkit-input-placeholder { color: var(--dust); }
+  ::-moz-placeholder { color: var(--dust); }
+  :-ms-input-placeholder { color: var(--dust); }
+  ::-ms-input-placeholder { color: var(--dust); }
+  ::placeholder { color: var(--dust); }
+  
+  /* ATOMS */
+  
+  /* Tag */
+  .tag { border: 1px solid var(--cloud); border-radius: 30px 30px 0 30px; display: inline-block; height: 50px; line-height: 28px; font-size: calc(var(--mainFontSize) * 1.2); padding: 10px 20px; font-family: var(--secondaryFont); margin-right: 10px; color: var(--silver);} 
+  
+  /* Buttons */
+  @keyframes buttonHovered { 0% { border-radius: 30px 30px 30px 30px; } 100% { border-radius: 30px 30px 0 30px; }}
+  .button { border: none; display: inline-block; transition:color .4s ease-out,background-color .4s ease-out,border-color .4s ease-out,opacity .4s ease-out,color .4s ease-out,box-shadow .4s ease-out; text-decoration:none; font-family: var(--secondaryFont); text-align: center; border-radius: 0 30px 30px 30px; font-size: calc(var(--mainFontSize) * 1.5); padding: 15px 30px; cursor: pointer; font-weight: bold; }
+  .button:hover { animation: buttonHovered 0.5s 1 forwards; }
+  .button:focus { text-decoration: underline; box-shadow: 0 0 0 3px var(--people); outline: none; }
+  
+  .primary { background:linear-gradient(270deg,var(--purpose) 50%,var(--universe) 0); background-position:100%; background-size:200% 100%; color: var(--possibility); } 
+  .primary:hover { background-position:0; transition:all .25s ease; color: var(--possibility); } 
+  .primary:active { background: var(--growth); color: var(--possibility); } 
+  
+  .secondary { background:linear-gradient(270deg,var(--growth) 50%,var(--universe) 0); background-position:100%; background-size:200% 100%; color: var(--possibility); } 
+  .secondary:hover { background-position:0; transition:all .25s ease; color: var(--possibility);  } 
+  .secondary:active { background: var(--purpose); color: var(--possibility); } 
+  
+  .tertiary { padding: 14px 30px; background:linear-gradient(270deg,var(--possibility) 50%,var(--universe) 0); background-position:100%; background-size:202% 100%; color: var(--universe); border: 1px solid var(--universe); } 
+  .tertiary:hover { background-position:0; transition:all .25s ease; color: var(--possibility); } 
+  .tertiary:active { background: var(--growth); color: var(--possibility); } 
