@@ -1,5 +1,5 @@
-<?php function simpleCard($title, $description) { ?>
-<div class="card">
+<?php function simpleCard($title, $description, $style="") { ?>
+<div class="card <?php echo $style; ?>">
     <div class="card-content">
         <div class="content">
         <h3>
